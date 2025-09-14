@@ -1,0 +1,27 @@
+Ticket #701 – GPA Calculation Broken
+I fixed class and method naming to follow PEP8 (CamelCase for classes, snake_case for methods).
+I also updated the GPA calculation logic to handle different scales.
+This makes the code cleaner, consistent, and easier to maintain.
+
+Ticket #702 – Missing File Crash
+I used a try/except block to handle missing files instead of crashing.
+I also checked file existence with os.path.exists() and used with open(...).
+This improves error handling and keeps the program stable.
+
+Ticket #703 – System Fails with 1000+ Students
+I replaced the list with a dictionary for faster access by student ID.
+This follows PEP8 advice to use the right data structure for the problem.
+The solution improves performance and keeps the code organized.
+
+Ticket #704 – No Audit Trail
+I added the logging module instead of using print.
+Now all read/write operations are logged for better traceability.
+This follows PEP8 practices and makes the system easier to audit.
+
+
+
+Ticket #705 – Code is Unreadable
+
+I refactored the code into clean OOP structure following PEP8.
+I added docstrings for documentation and separated logic into functions/classes.
+This makes the code readable, maintainable, and professional.
